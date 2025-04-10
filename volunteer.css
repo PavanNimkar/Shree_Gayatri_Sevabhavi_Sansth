@@ -1,0 +1,43 @@
+.volunteer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.v-img {
+  /* background-image: url("Members/Amey.jpg"); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-position: center;
+  background-size: cover; */
+}
+
+.v-img img {
+  width: 12rem;
+  height: 16rem;
+  /* border-radius: 1rem; */
+}
+
+.volunteer-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+  gap: 1.5rem;
+  transition: 0.5s;
+}
+
+.volunteer-detail:hover {
+  background-color: rgb(236, 234, 234);
+  /* cursor: arrow; */
+}
+
+.v-name {
+  font-weight: 700;
+}

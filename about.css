@@ -1,0 +1,30 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  text-align: justify;
+  gap: 2rem;
+}
+
+#one {
+  width: 30rem;
+}
+
+#two {
+  width: 15rem;
+  text-align: end;
+}
+
+.abt-img-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font-size: 1.2rem;
+}
+
+.abt-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

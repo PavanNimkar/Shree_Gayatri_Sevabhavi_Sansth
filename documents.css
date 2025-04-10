@@ -1,0 +1,28 @@
+.document {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 2rem;
+  width: 13rem;
+  height: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  text-align: center;
+  transition: 1s;
+  /* cursor: pointer; */
+}
+
+.documents-container {
+  display: flex;
+  gap: 2rem;
+  margin: 10%;
+}
+
+.document a {
+  color: black;
+}
+
+.document:hover {
+  background-color: rgb(216, 216, 216);
+}

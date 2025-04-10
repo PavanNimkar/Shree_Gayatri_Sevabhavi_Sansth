@@ -1,0 +1,13 @@
+.contact-us {
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+p {
+  font-weight: 600;
+}
