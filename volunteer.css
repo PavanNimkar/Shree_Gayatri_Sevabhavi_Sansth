@@ -16,6 +16,15 @@
   background-size: cover; */
 }
 
+/* .board-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 10%;
+  align-items: center;
+  justify-content: center;
+} */
+
 .v-img img {
   width: 12rem;
   height: 16rem;
